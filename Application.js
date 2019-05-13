@@ -2,6 +2,10 @@ const {NEW_DB,OLD_DB} = require('./src/config/db.config')
 var log = require('noogger')
 var colors = require('colors')
 const main = require('./src/main')
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  })
 
 async function serverStartLog(){
     const logo =`
@@ -28,7 +32,16 @@ async function serverStartLog(){
 
 async function Start(){
     await serverStartLog()
-    await main.start()
+    readline.question(`Migrate File eg.(db,json)`, async (name) => {
+        if(name== "db"){
+            await main.start()
+        }else{
+            console.log("Json start")
+            await main.jsonStart()
+        }
+        readline.close()
+      })
+
 }
    
 Start()

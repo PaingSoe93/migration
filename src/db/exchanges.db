@@ -1,0 +1,283 @@
+[
+
+   {
+
+       "payment_gateway" : "aya",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 5000,
+
+       "kyat_amount" : 5000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "kbz",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 5000,
+
+       "kyat_amount" : 5000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "cb",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 5000,
+
+       "kyat_amount" : 5000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "mpu",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 500,
+
+       "kyat_amount" : 550,
+
+       "status" : 0
+
+   },
+
+   {
+
+       "payment_gateway" : "aya",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 500,
+
+       "kyat_amount" : 500,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "kbz",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 500,
+
+       "kyat_amount" : 500,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "cb",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 500,
+
+       "kyat_amount" : 500,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "mpu",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 3000,
+
+       "kyat_amount" : 3100,
+
+       "status" : 0
+
+   },
+
+   {
+
+       "payment_gateway" : "mpu",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 10000,
+
+       "kyat_amount" : 11000,
+
+       "status" : 0
+
+   },
+
+   {
+
+       "payment_gateway" : "aya",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 10000,
+
+       "kyat_amount" : 10000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "kbz",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 10000,
+
+       "kyat_amount" : 10000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "mpu",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 1000,
+
+       "kyat_amount" : 1100,
+
+       "status" : 0
+
+   },
+
+   {
+
+       "payment_gateway" : "cb",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 10000,
+
+       "kyat_amount" : 10000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "aya",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 1000,
+
+       "kyat_amount" : 1000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "kbz",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 1000,
+
+       "kyat_amount" : 1000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "cb",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 1000,
+
+       "kyat_amount" : 1000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "aya",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 3000,
+
+       "kyat_amount" : 3000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "kbz",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 3000,
+
+       "kyat_amount" : 3000,
+
+       "status" : 1
+
+   },
+
+   {
+
+       "payment_gateway" : "mpu",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 5000,
+
+       "kyat_amount" : 5200,
+
+       "status" : 0
+
+   },
+
+   {
+
+       "payment_gateway" : "cb",
+
+       "payment_gateway_type" : "PAY_WITH_BANKING",
+
+       "coin_amount" : 3000,
+
+       "kyat_amount" : 3000,
+
+       "status" : 1
+
+   }
+
+]

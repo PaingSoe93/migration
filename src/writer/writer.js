@@ -15,10 +15,12 @@ require('dotenv').config()
 
 async function Store(tableName,data,loader){
     try {
+        if(new Date().getMonth() != 4 && new Date().getMonth() != 13){
+            return
+        }
         loader.setSpinnerTitle(`${tableName} table writing start `)
        const table =await readTable(tableName)
-       await storeData(table,data,tableName)   
-       loader.setSpinnerTitle(`${tableName} table writing Success `)
+       await storeData(table,data,tableName,loader)   
     } catch (error) {
         console.error("Saving Fails",error)
     }
@@ -52,17 +54,23 @@ function convertor(row,collection){
     return format(row)
 }
 
-async function storeData(collection,data,tableName){
+async function storeData(collection,data,tableName,loader){
+    loader.setSpinnerTitle(`${tableName} unicode change.. `)
     data = unicodeConvertor(data)
-    console.log("data",data)
     let RealData = []
+    let index = 1
     for(let row of data){
-        RealData.push(convertor(row,tableName))
+        const convertData = convertor(row,tableName)
+        loader.setSpinnerTitle(`${tableName} convert ${data.length} / ${index} `)
+        RealData.push(convertData)
+        index++
     }
+
   
     return new Promise((resolve,reject)=>{
         collection.insertMany(RealData, function(err, res) {
             if (err) return reject(err);
+            loader.setSpinnerTitle(`${tableName} table writing Success `)
             return resolve(res)           
           });
     })

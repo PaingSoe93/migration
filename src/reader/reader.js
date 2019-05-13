@@ -10,6 +10,7 @@ async function start(loader){
     loader.start();
     loader.setSpinnerTitle('Old DB Reading Start')
     for(let tableName of readingTable){
+        loader.setSpinnerTitle(`${tableName} db read ....`)
         const table = await readTable(tableName)
         const data = await findData(table)
         //ExcelExport({body:data,name:"Myancare User mm",filePath:"src/data"})
@@ -17,7 +18,7 @@ async function start(loader){
         await writer.Store(tableName,data,loader)
         //await writer.updateData(tableName,data)
     }
-    //loader.stop()
+    loader.stop()
 }
 async function readTable(tableName){
     let db =await OLD_DB()
